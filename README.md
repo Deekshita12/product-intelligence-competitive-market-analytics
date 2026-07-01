@@ -1,6 +1,6 @@
-# 📊 Product Intelligence & Competitive Market Analytics Dashboard
+# 📈 Product Intelligence & Competitive Market Analytics Platform
 
-> ### 🚀 End-to-End Business Intelligence & Analytics Project
+> **An End-to-End Business Intelligence Solution for Pricing Analytics, Product Intelligence, Competitive Benchmarking, and Strategic Decision-Making.**
 >
 > A comprehensive analytics solution built using **Python, PostgreSQL, SQL, Power BI, and DAX** to analyze **product competitiveness, pricing strategies, market saturation, customer value perception, and hidden business opportunities**. The project demonstrates the complete analytics lifecycle—from **data preprocessing and ETL** to **interactive business intelligence dashboards** that support strategic decision-making.
 
