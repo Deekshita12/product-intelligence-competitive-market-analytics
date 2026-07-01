@@ -1,4 +1,4 @@
-# 📈 Product Intelligence & Competitive Market Analytics Platform
+# 🚀 Product Intelligence & Competitive Market Analytics Platform
 
 > **An End-to-End Business Intelligence Solution for Pricing Analytics, Product Intelligence, Competitive Benchmarking, and Strategic Decision-Making.**
 >
