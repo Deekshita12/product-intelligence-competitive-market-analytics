@@ -1,57 +1,66 @@
 # 📊 Product Intelligence & Competitive Market Analytics Dashboard
 
-> **An End-to-End Business Intelligence & Data Analytics Project** built using **Python, PostgreSQL, SQL, Power BI, and DAX** to analyze product competitiveness, pricing strategies, market saturation, and hidden business opportunities.
+> ### 🚀 End-to-End Business Intelligence & Analytics Project
+>
+> A comprehensive analytics solution built using **Python, PostgreSQL, SQL, Power BI, and DAX** to analyze **product competitiveness, pricing strategies, market saturation, customer value perception, and hidden business opportunities**. The project demonstrates the complete analytics lifecycle—from **data preprocessing and ETL** to **interactive business intelligence dashboards** that support strategic decision-making.
 
 ---
+<p align="center">
+
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
-
-![SQL](https://img.shields.io/badge/SQL-025E8C?style=for-the-badge&logo=database&logoColor=white)
-
+![SQL](https://img.shields.io/badge/SQL-025E8C?style=for-the-badge)
 ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-
 ![DAX](https://img.shields.io/badge/DAX-005A9C?style=for-the-badge)
+![ETL](https://img.shields.io/badge/ETL-Pipeline-success?style=for-the-badge)
+![Data Modeling](https://img.shields.io/badge/Data_Modeling-Star_Schema-blueviolet?style=for-the-badge)
 
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github)
+</p>
 
-# 📌 Project Overview
+## 📌 Project Summary
 
-This project presents a complete **Business Intelligence solution** for analyzing marketplace products and uncovering competitive opportunities using modern analytics tools.
+| Category | Details |
+|-----------|---------|
+| **Project Type** | End-to-End Business Intelligence & Analytics Project |
+| **Domain** | E-Commerce Product Intelligence & Competitive Market Analytics |
+| **Dataset** | Public Amazon Product Dataset |
+| **Dataset Size** | 412,000+ Products |
+| **Product Categories** | 20 Main Categories |
+| **Technology Stack** | Python, PostgreSQL, SQL, Power BI, DAX |
+| **Dashboard Pages** | 5 Interactive Dashboards |
+| **Database** | PostgreSQL |
+| **Project Focus** | Product Intelligence, Competitive Analysis, Pricing Analytics, Market Opportunity Identification |
 
-The solution transforms raw product data into interactive dashboards that help businesses evaluate pricing strategies, category competitiveness, market saturation, customer value perception, and growth opportunities.
+## 🌟 Project Highlights
 
-The project demonstrates the complete analytics lifecycle—from **data preprocessing and ETL using Python**, **analytical data modeling in PostgreSQL**, **SQL-based business analysis**, and **interactive Power BI dashboards** powered by **DAX measures**.
+- ✅ Built a complete ETL pipeline using **Python**.
+- ✅ Designed an analytical database in **PostgreSQL**.
+- ✅ Developed reusable SQL views for business reporting.
+- ✅ Created interactive **Power BI dashboards** with DAX measures.
+- ✅ Performed pricing, competitiveness, and market opportunity analysis.
+- ✅ Identified hidden growth opportunities and premium product segments.
+- ✅ Delivered strategic business insights to support executive decision-making.
 
-It is designed to simulate a real-world analytics solution for Product Managers, Category Managers, Pricing Analysts, and Business Decision Makers.
+## 📑 Table of Contents
 
-# 📸 Dashboard Preview
-
-## Cover Page
-
-![Cover Page](docs/assets/01_cover_page.png)
-
----
-
-## Executive Overview
-
-![Executive Overview](docs/assets/02_executive_overview.png)
-
----
-
-## Competitive Intelligence & Market Positioning
-
-![Competitive Intelligence](docs/assets/03_competitive_intelligence.png)
-
----
-
-## Product Intelligence & Pricing Analytics
-
-![Pricing Analytics](docs/assets/04_product_intelligence.png)
-
----
-
-## Market Opportunity & Strategic Insights
-
-![Market Opportunity](docs/assets/05_market_opportunity.png)
+- [📌 Project Overview](#-project-overview)
+- [📸 Dashboard Preview](#-dashboard-preview)
+- [📖 About the Project](#-about-the-project)
+- [💼 Business Problem](#-business-problem)
+- [❓ Business Questions Answered](#-business-questions-answered)
+- [🎯 Project Objectives](#-project-objectives)
+- [🛠 Technology Stack](#-technology-stack)
+- [⚙ Project Workflow](#-project-workflow)
+- [🏗 Project Architecture](#-project-architecture)
+- [📊 Dataset Overview](#-dataset-overview)
+- [🔄 ETL Pipeline](#-etl-pipeline)
+- [🗄 Database Design](#-database-design)
+- [📈 Dashboard Overview](#-dashboard-overview)
+- [💡 Key Business Insights](#-key-business-insights)
+- [📂 Repository Structure](#-repository-structure)
+- [🚀 Installation Guide](#-installation-guide)
+- [🔮 Future Enhancements](#-future-enhancements)
+- [🧠 Key Skills Demonstrated](#-key-skills-demonstrated)
+- [📚 Documentation](#-documentation)
+- [👩‍💻 Author](#-author)
 
