@@ -453,3 +453,186 @@ The final dashboard transforms analytical findings into actionable business reco
 
 Provides executives with data-driven insights that support pricing optimization, category expansion, and long-term investment planning.
 
+# 💡 Key Business Insights
+
+The analysis uncovered several patterns that can support strategic product and pricing decisions.
+
+### Competitive Landscape
+
+- Certain product categories exhibit high market saturation, indicating intense competition and reduced differentiation.
+- Several niche categories demonstrate lower competition while maintaining strong customer ratings, highlighting potential expansion opportunities.
+
+### Pricing & Value Analysis
+
+- Premium pricing is concentrated within specific product categories, suggesting higher customer willingness to pay.
+- Products with competitive pricing and strong customer ratings consistently achieve higher value scores, making them attractive candidates for promotional campaigns.
+- Discount strategies vary significantly across categories, indicating that pricing approaches should be tailored rather than standardized.
+
+### Product Performance
+
+- High customer ratings are not always associated with premium pricing, emphasizing the importance of value-driven product positioning.
+- Products that balance competitive pricing, customer satisfaction, and consistent ratings represent strong long-term growth opportunities.
+
+### Strategic Recommendations
+
+- Prioritize investment in categories with moderate competition and increasing customer demand.
+- Continuously monitor pricing trends to remain competitive while protecting profitability.
+- Promote high-value products with strong customer ratings to improve marketplace visibility and customer engagement.
+- Use competitive intelligence dashboards to support category expansion and pricing decisions.
+
+# 📂 Repository Structure
+
+```text
+product-intelligence-competitive-market-analytics
+│
+├── assets/
+│   ├── 01_cover_page.png
+│   ├── 02_executive_overview.png
+│   ├── 03_competitive_intelligence.png
+│   ├── 04_product_intelligence.png
+│   └── 05_market_opportunity.png
+│
+├── data/
+│   ├── raw/
+│   └── processed/
+│
+├── docs/
+│   ├── architecture.png
+│   ├── data_dictionary.md
+│   └── project_report.md
+│
+├── powerbi/
+│   └── Product_Intelligence_Competitive_Market_Analytics.pbix
+│
+├── scripts/
+│   ├── transform_data.py
+│   ├── load_data.py
+│   └── create_views.py
+│
+├── sql/
+│   ├── schema.sql
+│   ├── create_tables.sql
+│   ├── analytical_views.sql
+│   ├── analysis_queries.sql
+│   ├── dimension_queries.sql
+│   └── validation_queries.sql
+│
+├── README.md
+├── requirements.txt
+├── LICENSE
+└── .gitignore
+```
+# 🚀 Installation Guide
+
+Follow these steps to set up the project locally.
+
+## 1. Clone the Repository
+
+```bash
+git clone https://github.com/Deekshita12/product-intelligence-competitive-market-analytics.git
+```
+
+---
+
+## 2. Navigate to the Project Directory
+
+```bash
+cd product-intelligence-competitive-market-analytics
+```
+
+---
+
+## 3. Install Python Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## 4. Configure PostgreSQL
+
+- Create a PostgreSQL database.
+- Update the database connection settings in the Python scripts if required.
+- Execute the SQL scripts located in the `sql` folder to create the schema and analytical views.
+
+---
+
+## 5. Load the Dataset
+
+Run the Python scripts to clean, transform, and load the processed dataset into PostgreSQL.
+
+---
+
+## 6. Open Power BI
+
+Open the `.pbix` file located in the `powerbi` folder and refresh the data source to explore the dashboards.
+
+# 🔮 Future Enhancements
+
+Potential improvements that could further enhance the platform include:
+
+- Integrate live marketplace data using APIs.
+- Automate the ETL pipeline using Apache Airflow.
+- Develop a real-time dashboard with scheduled data refresh.
+- Incorporate customer review sentiment analysis using Natural Language Processing (NLP).
+- Build predictive models for price forecasting and demand estimation.
+- Add competitor price tracking through automated web scraping.
+- Deploy dashboards to Power BI Service with scheduled refresh and Row-Level Security (RLS).
+- Expand the platform to support multiple e-commerce marketplaces for comparative analysis.
+# 🧠 Key Skills Demonstrated
+
+### Data Engineering
+
+- ETL Pipeline Development
+- Data Cleaning & Transformation
+- Feature Engineering
+- PostgreSQL Database Design
+
+### SQL & Analytics
+
+- Complex SQL Queries
+- Analytical SQL Views
+- Data Validation
+- KPI Development
+
+### Business Intelligence
+
+- Power BI Dashboard Development
+- DAX Measures
+- Interactive Reporting
+- Executive Dashboard Design
+
+### Business Analysis
+
+- Competitive Intelligence
+- Pricing Strategy Analysis
+- Product Performance Evaluation
+- Market Opportunity Identification
+- Data-Driven Decision Support
+
+# 📚 Documentation
+
+Additional project documentation is available within the `docs` folder.
+
+| Document | Description |
+|----------|-------------|
+| `project_report.md` | Complete project documentation |
+| `data_dictionary.md` | Description of dataset fields and engineered features |
+| `architecture.png` | Project architecture diagram |
+
+# 👩‍💻 Author
+
+**Deekshita Donthula**
+
+Data Analyst | Business Intelligence Enthusiast | SQL • Python • PostgreSQL • Power BI
+
+### Connect with Me
+
+- **GitHub:** https://github.com/Deekshita12
+- **LinkedIn:** *https://www.linkedin.com/in/deekshita-donthula-456a49266/*
+
+---
+
+If you found this project helpful or interesting, feel free to ⭐ star the repository.
+
