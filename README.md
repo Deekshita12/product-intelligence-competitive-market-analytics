@@ -352,34 +352,72 @@ The Power BI solution consists of **five interactive dashboards**, each designed
 
 | Dashboard | Business Focus |
 |-----------|----------------|
-| **Cover Page** | Project introduction and navigation |
-| **Executive Overview** | Marketplace performance summary and key KPIs |
-| **Competitive Intelligence & Market Positioning** | Competitive analysis and category benchmarking |
-| **Product Intelligence & Pricing Analytics** | Pricing strategy, value analysis, and customer perception |
-| **Market Opportunity & Strategic Insights** | Business recommendations and growth opportunities |
+| 🏠 Cover Page | Project introduction and navigation |
+| 📊 Executive Overview | Marketplace performance summary and key KPIs |
+| 🎯 Competitive Intelligence & Market Positioning | Competitive analysis and category benchmarking |
+| 💰 Product Intelligence & Pricing Analytics | Pricing strategy, value analysis, and customer perception |
+| 🚀 Market Opportunity & Strategic Insights | Business recommendations and growth opportunities |
 
 Each dashboard supports interactive filtering, enabling users to explore insights across product categories, pricing segments, and competitiveness levels.
+
+---
+
 ## 🏠 Dashboard 1 — Cover Page
 
-The landing page introduces the project, highlights the analytics objective, and provides intuitive navigation to the remaining dashboards.
+<table>
+<tr>
 
-### Purpose
+<td width="55%">
+
+<img src="docs/assets/01_cover_page.png" width="100%">
+
+</td>
+
+<td width="45%" valign="top">
+
+### 🎯 Purpose
 
 - Introduce the Product Intelligence platform.
 - Present the technology stack.
 - Improve user navigation.
 - Create a professional reporting experience.
 
-**Key Features**
+### ⭐ Key Features
 
 - Project branding
+- Technology stack
 - Navigation buttons
 - Modern dashboard design
+
+### 💼 Business Value
+
+Provides users with a clear introduction to the analytics platform and establishes the context for the remaining dashboards.
+
+</td>
+
+</tr>
+</table>
+
+---
+
 ## 📊 Dashboard 2 — Executive Overview
 
-This dashboard provides a high-level summary of marketplace performance through key business metrics and category-level analysis.
+<table>
+<tr>
 
-### Key KPIs
+<td width="55%">
+
+<img src="docs/assets/02_executive_overview.png" width="100%">
+
+</td>
+
+<td width="45%" valign="top">
+
+### 🎯 Purpose
+
+Provides a high-level summary of marketplace performance through key business metrics and category-level analysis.
+
+### 📊 Key KPIs
 
 - Total Products
 - Product Categories
@@ -388,14 +426,43 @@ This dashboard provides a high-level summary of marketplace performance through 
 - Average Selling Price
 - Competitiveness Score
 
-### Business Value
+### 📈 Key Visualizations
 
-The dashboard enables business users to quickly understand overall marketplace performance before exploring detailed analytical reports.
+- KPI Cards
+- Top Categories by Products
+- Top Product Categories
+- Premium Category Index
+- Interactive Filters
+
+### 💼 Business Value
+
+Enables business users to quickly understand overall marketplace performance before exploring detailed analytical reports.
+
+</td>
+
+</tr>
+</table>
+
+---
+
 ## 🎯 Dashboard 3 — Competitive Intelligence & Market Positioning
 
-This dashboard focuses on measuring competitive intensity across product categories and identifying areas with potential market opportunities.
+<table>
+<tr>
 
-### Analysis Includes
+<td width="55%">
+
+<img src="docs/assets/03_competitive_intelligence.png" width="100%">
+
+</td>
+
+<td width="45%" valign="top">
+
+### 🎯 Purpose
+
+Measures competitive intensity across product categories and identifies potential market opportunities.
+
+### 📊 Analysis Includes
 
 - Category Competitiveness
 - Market Saturation
@@ -403,14 +470,43 @@ This dashboard focuses on measuring competitive intensity across product categor
 - Top Performing Products
 - Competitive Positioning
 
-### Business Value
+### 📈 Key Visualizations
 
-Supports strategic planning by helping decision-makers understand where competition is highest and where expansion opportunities may exist.
+- Competitive Category Ranking
+- Growth Opportunity Analysis
+- Market Saturation Ranking
+- Hidden Gem Products
+- Product Performance Tables
+
+### 💼 Business Value
+
+Supports strategic planning by helping decision-makers understand where competition is highest and where expansion opportunities exist.
+
+</td>
+
+</tr>
+</table>
+
+---
+
 ## 💰 Dashboard 4 — Product Intelligence & Pricing Analytics
 
-This dashboard evaluates pricing behaviour and customer value across different product categories.
+<table>
+<tr>
 
-### Analysis Includes
+<td width="55%">
+
+<img src="docs/assets/04_product_intelligence.png" width="100%">
+
+</td>
+
+<td width="45%" valign="top">
+
+### 🎯 Purpose
+
+Evaluates pricing behaviour, customer value, and product performance across different categories.
+
+### 📊 Analysis Includes
 
 - Pricing Distribution
 - Discount Analysis
@@ -419,14 +515,43 @@ This dashboard evaluates pricing behaviour and customer value across different p
 - Customer Ratings
 - Product Performance
 
-### Business Value
+### 📈 Key Visualizations
 
-Helps businesses evaluate pricing strategies and identify products that offer strong customer value while maintaining profitability.
+- Price Segment Distribution
+- Highest Value Score Categories
+- Category Price & Rating Summary
+- Median Product Price
+- Category Market Share
+
+### 💼 Business Value
+
+Helps businesses evaluate pricing strategies and identify products that deliver strong customer value while maintaining profitability.
+
+</td>
+
+</tr>
+</table>
+
+---
+
 ## 🚀 Dashboard 5 — Market Opportunity & Strategic Insights
 
-The final dashboard transforms analytical findings into actionable business recommendations.
+<table>
+<tr>
 
-### Analysis Includes
+<td width="55%">
+
+<img src="docs/assets/05_market_opportunity.png" width="100%">
+
+</td>
+
+<td width="45%" valign="top">
+
+### 🎯 Purpose
+
+Transforms analytical findings into actionable business recommendations.
+
+### 📊 Analysis Includes
 
 - Growth Opportunities
 - Premium Segments
@@ -434,10 +559,24 @@ The final dashboard transforms analytical findings into actionable business reco
 - Market Leaders
 - Strategic Recommendations
 
-### Business Value
+### 📈 Key Visualizations
+
+- Executive Insight Cards
+- Strategic KPI Cards
+- Hidden Market Opportunities Treemap
+- Strategic Category Insights
+- Interactive Filters
+
+### 💼 Business Value
 
 Provides executives with data-driven insights that support pricing optimization, category expansion, and long-term investment planning.
 
+</td>
+
+</tr>
+</table>
+
+---
 # 💡 Key Business Insights
 
 The analysis uncovered several patterns that can support strategic product and pricing decisions.
