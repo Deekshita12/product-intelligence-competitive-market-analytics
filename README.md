@@ -1,13 +1,13 @@
 # 🚀 Product Intelligence & Competitive Market Analytics Platform
-> **An End-to-End Business Intelligence Solution for Pricing Analytics, Product Intelligence, Competitive Benchmarking, and Strategic Decision-Making.**
+> **An End-to-End Business Intelligence Solution for Pricing Analytics, Product Intelligence, Competitive Benchmarking and Strategic Decision-Making.**
 >
-> A comprehensive analytics solution built using **Python, PostgreSQL, SQL, Power BI, and DAX** to analyze **product competitiveness, pricing strategies, market saturation, customer value perception, and hidden business opportunities**. The project demonstrates the complete analytics lifecycle—from **data preprocessing and ETL** to **interactive business intelligence dashboards** that support strategic decision-making.
+> A comprehensive analytics solution built using **Python, PostgreSQL, SQL, Power BI and DAX** to analyze **product competitiveness, pricing strategies, market saturation, customer value perception and hidden business opportunities**. The project demonstrates the complete analytics lifecycle—from **data preprocessing and ETL** to **interactive business intelligence dashboards** that support strategic decision-making.
 
 ## ⭐ Why This Project?
 
-Businesses operating in competitive online marketplaces generate large volumes of product and pricing data every day. Converting this information into meaningful business insights requires a structured analytics workflow that combines data engineering, SQL analytics, and business intelligence.
+Businesses operating in competitive online marketplaces generate large volumes of product and pricing data every day. Converting this information into meaningful business insights requires a structured analytics workflow that combines data engineering, SQL analytics and business intelligence.
 
-This project demonstrates how a complete analytics pipeline can be built—from raw data preparation and database design to interactive dashboards that support pricing strategy, competitive benchmarking, and market opportunity analysis.
+This project demonstrates how a complete analytics pipeline can be built—from raw data preparation and database design to interactive dashboards that support pricing strategy, competitive benchmarking and market opportunity analysis.
 
 Rather than focusing solely on reporting, the project emphasizes actionable insights that help business stakeholders understand market dynamics and make informed decisions.
 
@@ -44,7 +44,7 @@ Rather than focusing solely on reporting, the project emphasizes actionable insi
 - ✅ Designed an analytical database in **PostgreSQL**.
 - ✅ Developed reusable SQL views for business reporting.
 - ✅ Created interactive **Power BI dashboards** with DAX measures.
-- ✅ Performed pricing, competitiveness, and market opportunity analysis.
+- ✅ Performed pricing, competitiveness and market opportunity analysis.
 - ✅ Identified hidden growth opportunities and premium product segments.
 - ✅ Delivered strategic business insights to support executive decision-making.
 
@@ -75,7 +75,7 @@ Rather than focusing solely on reporting, the project emphasizes actionable insi
 
 The **Product Intelligence & Competitive Market Analytics Dashboard** is an end-to-end Business Intelligence project developed to transform raw e-commerce product data into meaningful business insights.
 
-The project combines **Python**, **PostgreSQL**, **SQL**, **Power BI**, and **DAX** to build a complete analytics solution capable of evaluating product competitiveness, pricing strategies, category performance, market saturation, and hidden growth opportunities.
+The project combines **Python**, **PostgreSQL**, **SQL**, **Power BI** and **DAX** to build a complete analytics solution capable of evaluating product competitiveness, pricing strategies, category performance, market saturation and hidden growth opportunities.
 
 Starting from a large public Amazon product dataset, the project demonstrates the complete analytics lifecycle including:
 
@@ -87,7 +87,7 @@ Starting from a large public Amazon product dataset, the project demonstrates th
 - Interactive Dashboard Development
 - Business Insight Generation
 
-The final solution enables stakeholders to monitor marketplace performance, identify high-value product categories, evaluate competitive positioning, optimize pricing strategies, and support strategic business decision-making through interactive dashboards.
+The final solution enables stakeholders to monitor marketplace performance, identify high-value product categories, evaluate competitive positioning, optimize pricing strategies and support strategic business decision-making through interactive dashboards.
 
 # 📸 Dashboard Preview
 
@@ -105,7 +105,7 @@ Introduces the project, technology stack, and analytics objective.
 
 ## 2️⃣ Executive Overview
 
-Provides a high-level summary of marketplace performance through KPIs, category distribution, competitiveness score, pricing metrics, and interactive filters.
+Provides a high-level summary of marketplace performance through KPIs, category distribution, competitiveness score, pricing metrics and interactive filters.
 
 ![Executive Overview](docs/assets/02_executive_overview.png)
 
@@ -113,7 +113,7 @@ Provides a high-level summary of marketplace performance through KPIs, category 
 
 ## 3️⃣ Competitive Intelligence & Market Positioning
 
-Analyzes category competitiveness, hidden opportunities, market saturation, top-performing products, and competitive positioning.
+Analyzes category competitiveness, hidden opportunities, market saturation, top-performing products and competitive positioning.
 
 ![Competitive Intelligence](docs/assets/03_competitive_intelligence.png)
 
@@ -121,7 +121,7 @@ Analyzes category competitiveness, hidden opportunities, market saturation, top-
 
 ## 4️⃣ Product Intelligence & Pricing Analytics
 
-Focuses on pricing behaviour, value perception, discounts, premium segments, category pricing, and product performance.
+Focuses on pricing behaviour, value perception, discounts, premium segments, category pricing and product performance.
 
 ![Product Intelligence](docs/assets/04_product_intelligence.png)
 
@@ -129,7 +129,7 @@ Focuses on pricing behaviour, value perception, discounts, premium segments, cat
 
 ## 5️⃣ Market Opportunity & Strategic Insights
 
-Transforms analytical findings into executive recommendations by identifying growth opportunities, premium markets, hidden gems, and strategic investment areas.
+Transforms analytical findings into executive recommendations by identifying growth opportunities, premium markets, hidden gems and strategic investment areas.
 
 ![Market Opportunity](docs/assets/05_market_opportunity.png)
 
@@ -139,9 +139,9 @@ Modern e-commerce marketplaces contain millions of products competing across hun
 
 This project was developed to simulate how an analytics team can transform raw marketplace data into actionable business intelligence using modern data engineering and visualization tools.
 
-The solution follows an end-to-end analytics workflow beginning with data preprocessing in Python, followed by data warehousing in PostgreSQL, SQL-based analytical modeling, and interactive dashboard development in Power BI.
+The solution follows an end-to-end analytics workflow beginning with data preprocessing in Python, followed by data warehousing in PostgreSQL, SQL-based analytical modeling and interactive dashboard development in Power BI.
 
-Rather than simply displaying charts, the project focuses on answering real business questions related to market competitiveness, pricing strategy, category performance, customer value perception, and strategic growth opportunities.
+Rather than simply displaying charts, the project focuses on answering real business questions related to market competitiveness, pricing strategy, category performance, customer value perception and strategic growth opportunities.
 
 The resulting dashboard enables decision-makers to move beyond descriptive reporting and make data-driven strategic decisions.
 
@@ -187,21 +187,21 @@ The project focuses on the following objectives:
 - Design a structured PostgreSQL database to support analytical reporting.
 - Create reusable SQL views for business-focused analysis.
 - Analyze product competitiveness across different marketplace categories.
-- Evaluate pricing behaviour, discounts, and value perception.
+- Evaluate pricing behaviour, discounts and value perception.
 - Identify high-growth and under-served market segments.
 - Develop interactive Power BI dashboards for business users.
-- Generate insights that support pricing strategy, category management, and product positioning.
+- Generate insights that support pricing strategy, category management and product positioning.
 
 # 🛠 Technology Stack
 
 | Technology | Purpose |
 |------------|---------|
-| **Python** | Data cleaning, preprocessing, feature engineering, and ETL pipeline development |
+| **Python** | Data cleaning, preprocessing, feature engineering and ETL pipeline development |
 | **PostgreSQL** | Storage of processed data and analytical database design |
-| **SQL** | Data transformation, business queries, analytical views, and validation |
-| **Power BI** | Interactive dashboards, KPI reporting, and business visualization |
-| **DAX** | Custom measures, calculated metrics, and dashboard interactivity |
-| **Git & GitHub** | Version control, documentation, and project management |
+| **SQL** | Data transformation, business queries, analytical views and validation |
+| **Power BI** | Interactive dashboards, KPI reporting and business visualization |
+| **DAX** | Custom measures, calculated metrics and dashboard interactivity |
+| **Git & GitHub** | Version control, documentation and project management |
 
 # 🔄 Project Workflow
 
@@ -247,17 +247,17 @@ The project follows a layered Business Intelligence architecture that transforms
 The solution is organized into six logical layers:
 
 1. **Data Source** – Raw e-commerce product data.
-2. **ETL Layer** – Data cleaning, preprocessing, and feature engineering using Python.
+2. **ETL Layer** – Data cleaning, preprocessing and feature engineering using Python.
 3. **Data Warehouse** – PostgreSQL database with structured analytical tables.
 4. **Analytical Layer** – SQL queries and reusable analytical views.
 5. **Visualization Layer** – Interactive Power BI dashboards with DAX measures.
-6. **Business Outcomes** – Competitive intelligence, pricing analysis, and strategic decision support.
+6. **Business Outcomes** – Competitive intelligence, pricing analysis and strategic decision support.
 
 # 📊 Dataset Overview
 
-The project is built on a large-scale **public e-commerce product dataset** representing products across multiple retail categories. The dataset contains detailed product information, pricing attributes, customer ratings, and category classifications, making it suitable for competitive market analysis and product intelligence.
+The project is built on a large-scale **public e-commerce product dataset** representing products across multiple retail categories. The dataset contains detailed product information, pricing attributes, customer ratings and category classifications, making it suitable for competitive market analysis and product intelligence.
 
-To support analytical reporting, the raw data was cleaned, standardized, and enriched through feature engineering before being loaded into PostgreSQL for business analysis.
+To support analytical reporting, the raw data was cleaned, standardized and enriched through feature engineering before being loaded into PostgreSQL for business analysis.
 
 ## Dataset Summary
 
@@ -284,11 +284,11 @@ The dataset underwent several preprocessing steps before analysis:
 
 # 🔄 ETL Pipeline
 
-The project follows a structured **Extract, Transform, and Load (ETL)** process to convert raw marketplace data into an analytics-ready dataset for reporting and business intelligence.
+The project follows a structured **Extract, Transform and Load (ETL)** process to convert raw marketplace data into an analytics-ready dataset for reporting and business intelligence.
 
 ### 📥 Extract
 
-The raw product dataset was imported into Python for preprocessing. It included product information such as categories, pricing, ratings, customer reviews, and discount details.
+The raw product dataset was imported into Python for preprocessing. It included product information such as categories, pricing, ratings, customer reviews and discount details.
 
 ### 🔧 Transform
 
@@ -313,11 +313,11 @@ After preprocessing, the cleaned dataset was loaded into PostgreSQL.
 
 The database was then structured into analytical tables and reusable SQL views, providing an optimized foundation for Power BI reporting and dashboard development.
 
-The ETL pipeline ensures that the dashboard always works with consistent, validated, and analytics-ready data.
+The ETL pipeline ensures that the dashboard always works with consistent, validated and analytics-ready data.
 
 # 🗄 Database Design
 
-A relational analytical database was designed in PostgreSQL to support efficient querying, reusable business logic, and seamless integration with Power BI.
+A relational analytical database was designed in PostgreSQL to support efficient querying, reusable business logic and seamless integration with Power BI.
 
 <p align="center">
   <img src="docs/database_er_diagram.png" alt="Database ER Diagram" width="100%">
@@ -328,7 +328,7 @@ A relational analytical database was designed in PostgreSQL to support efficient
 #### Fact Table
 
 - **fact_products**
-  - Stores pricing, ratings, discounts, value score, competitiveness score, and product-level metrics.
+  - Stores pricing, ratings, discounts, value score, competitiveness score and product-level metrics.
 
 #### Dimension Tables
 
@@ -355,10 +355,10 @@ The Power BI solution consists of **five interactive dashboards**, each designed
 | 🏠 Cover Page | Project introduction and navigation |
 | 📊 Executive Overview | Marketplace performance summary and key KPIs |
 | 🎯 Competitive Intelligence & Market Positioning | Competitive analysis and category benchmarking |
-| 💰 Product Intelligence & Pricing Analytics | Pricing strategy, value analysis, and customer perception |
+| 💰 Product Intelligence & Pricing Analytics | Pricing strategy, value analysis and customer perception |
 | 🚀 Market Opportunity & Strategic Insights | Business recommendations and growth opportunities |
 
-Each dashboard supports interactive filtering, enabling users to explore insights across product categories, pricing segments, and competitiveness levels.
+Each dashboard supports interactive filtering, enabling users to explore insights across product categories, pricing segments and competitiveness levels.
 
 ---
 
@@ -504,7 +504,7 @@ Supports strategic planning by helping decision-makers understand where competit
 
 ### 🎯 Purpose
 
-Evaluates pricing behaviour, customer value, and product performance across different categories.
+Evaluates pricing behaviour, customer value and product performance across different categories.
 
 ### 📊 Analysis Includes
 
@@ -569,7 +569,7 @@ Transforms analytical findings into actionable business recommendations.
 
 ### 💼 Business Value
 
-Provides executives with data-driven insights that support pricing optimization, category expansion, and long-term investment planning.
+Provides executives with data-driven insights that support pricing optimization, category expansion and long-term investment planning.
 
 </td>
 
@@ -595,7 +595,7 @@ The analysis uncovered several patterns that can support strategic product and p
 ### Product Performance
 
 - High customer ratings are not always associated with premium pricing, emphasizing the importance of value-driven product positioning.
-- Products that balance competitive pricing, customer satisfaction, and consistent ratings represent strong long-term growth opportunities.
+- Products that balance competitive pricing, customer satisfaction and consistent ratings represent strong long-term growth opportunities.
 
 ### Strategic Recommendations
 
@@ -684,7 +684,7 @@ pip install -r requirements.txt
 
 ## 5. Load the Dataset
 
-Run the Python scripts to clean, transform, and load the processed dataset into PostgreSQL.
+Run the Python scripts to clean, transform and load the processed dataset into PostgreSQL.
 
 ---
 
