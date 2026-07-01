@@ -236,37 +236,22 @@ Raw Amazon Product Dataset
 ```
 # 🏗 Project Architecture
 
-The project is designed using a layered analytics architecture that separates data preparation, storage, business logic, and visualization.
+The project follows a layered Business Intelligence architecture that transforms raw marketplace data into actionable insights through a structured ETL pipeline and analytical reporting framework.
 
-### Architecture Layers
+<p align="center">
+  <img src="docs/architecture.png" alt="Project Architecture" width="100%">
+</p>
 
-**1. Data Layer**
-- Raw Amazon marketplace dataset
-- Product information, pricing, ratings, and category details
+### Architecture Overview
 
-**2. Processing Layer**
-- Data cleaning using Python
-- Feature engineering
-- Missing value handling
-- Price normalization
-- Derived metric creation
+The solution is organized into six logical layers:
 
-**3. Database Layer**
-- PostgreSQL analytical database
-- Structured tables
-- SQL views for reporting
-
-**4. Analytics Layer**
-- Business calculations
-- KPI generation
-- Category competitiveness analysis
-- Pricing analytics
-- Market opportunity analysis
-
-**5. Visualization Layer**
-- Interactive Power BI dashboards
-- Executive reporting
-- Strategic recommendations
+1. **Data Source** – Raw e-commerce product data.
+2. **ETL Layer** – Data cleaning, preprocessing, and feature engineering using Python.
+3. **Data Warehouse** – PostgreSQL database with structured analytical tables.
+4. **Analytical Layer** – SQL queries and reusable analytical views.
+5. **Visualization Layer** – Interactive Power BI dashboards with DAX measures.
+6. **Business Outcomes** – Competitive intelligence, pricing analysis, and strategic decision support.
 
 # 📊 Dataset Overview
 
@@ -332,42 +317,35 @@ The ETL pipeline ensures that the dashboard always works with consistent, valida
 
 # 🗄 Database Design
 
-The project uses **PostgreSQL** as the analytical database to organize processed data into a structured reporting model.
+A relational analytical database was designed in PostgreSQL to support efficient querying, reusable business logic, and seamless integration with Power BI.
 
-The database design separates raw data, transformed data, and business-ready analytical views, making reporting more efficient and easier to maintain.
+<p align="center">
+  <img src="docs/database_er_diagram.png" alt="Database ER Diagram" width="100%">
+</p>
 
-## Database Components
+### Database Components
 
-### Raw Data Layer
+#### Fact Table
 
-Stores the cleaned product dataset imported from the ETL pipeline.
+- **fact_products**
+  - Stores pricing, ratings, discounts, value score, competitiveness score, and product-level metrics.
 
-### Analytical Tables
+#### Dimension Tables
 
-The database contains structured tables that support category analysis, pricing analysis, and product-level reporting.
+- **dim_category** – Product category information
+- **dim_subcategory** – Subcategory hierarchy
+- **dim_price_segment** – Pricing tiers for analytical segmentation
 
-Examples include:
+#### Analytical Views
 
-- Product Information
-- Category Information
-- Pricing Segments
-- Product Metrics
+Several SQL views were developed to simplify reporting and improve dashboard performance:
 
-### Business Views
+- `vw_category_competitiveness`
+- `vw_hidden_gems`
+- `vw_market_saturation`
+- `vw_premiumization`
 
-To simplify reporting and improve dashboard performance, multiple SQL views were created.
-
-These views perform business calculations before the data reaches Power BI.
-
-The analytical views include:
-
-- Category Competitiveness Analysis
-- Market Saturation Analysis
-- Hidden Opportunity Analysis
-- Premium Product Analysis
-
-This approach reduces repetitive calculations within Power BI and improves report maintainability.
-
+These views act as the primary data source for the Power BI dashboards, reducing report complexity while improving query performance.
 # 📈 Dashboard Overview
 
 The Power BI solution consists of **five interactive dashboards**, each designed to address a specific business objective.
