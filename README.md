@@ -169,3 +169,287 @@ This project is designed to answer several important business questions, includi
 - Which product segments offer the greatest business potential?
 - Where should businesses focus future investments?
 - How can pricing strategies be optimized using marketplace insights?
+
+# 🎯 Project Objectives
+
+The primary objective of this project is to build a complete Business Intelligence solution that converts raw marketplace data into actionable business insights for product and pricing analysis.
+
+The project focuses on the following objectives:
+
+- Build an end-to-end ETL pipeline to prepare raw product data for analytics.
+- Design a structured PostgreSQL database to support analytical reporting.
+- Create reusable SQL views for business-focused analysis.
+- Analyze product competitiveness across different marketplace categories.
+- Evaluate pricing behaviour, discounts, and value perception.
+- Identify high-growth and under-served market segments.
+- Develop interactive Power BI dashboards for business users.
+- Generate insights that support pricing strategy, category management, and product positioning.
+
+# 🛠 Technology Stack
+
+| Technology | Purpose |
+|------------|---------|
+| **Python** | Data cleaning, preprocessing, feature engineering, and ETL pipeline development |
+| **PostgreSQL** | Storage of processed data and analytical database design |
+| **SQL** | Data transformation, business queries, analytical views, and validation |
+| **Power BI** | Interactive dashboards, KPI reporting, and business visualization |
+| **DAX** | Custom measures, calculated metrics, and dashboard interactivity |
+| **Git & GitHub** | Version control, documentation, and project management |
+
+# 🔄 Project Workflow
+
+The project follows a structured analytics workflow from raw data ingestion to business insight generation.
+
+```text
+Raw Amazon Product Dataset
+            │
+            ▼
+ Data Cleaning & Transformation (Python)
+            │
+            ▼
+     Feature Engineering
+            │
+            ▼
+ Load Clean Data into PostgreSQL
+            │
+            ▼
+   SQL Data Modeling & Views
+            │
+            ▼
+    Power BI Data Modeling
+            │
+            ▼
+ DAX Measures & KPIs
+            │
+            ▼
+ Interactive Business Dashboard
+            │
+            ▼
+ Strategic Business Insights
+```
+# 🏗 Project Architecture
+
+The project is designed using a layered analytics architecture that separates data preparation, storage, business logic, and visualization.
+
+### Architecture Layers
+
+**1. Data Layer**
+- Raw Amazon marketplace dataset
+- Product information, pricing, ratings, and category details
+
+**2. Processing Layer**
+- Data cleaning using Python
+- Feature engineering
+- Missing value handling
+- Price normalization
+- Derived metric creation
+
+**3. Database Layer**
+- PostgreSQL analytical database
+- Structured tables
+- SQL views for reporting
+
+**4. Analytics Layer**
+- Business calculations
+- KPI generation
+- Category competitiveness analysis
+- Pricing analytics
+- Market opportunity analysis
+
+**5. Visualization Layer**
+- Interactive Power BI dashboards
+- Executive reporting
+- Strategic recommendations
+
+# 📊 Dataset Overview
+
+The project is built on a large-scale **public e-commerce product dataset** representing products across multiple retail categories. The dataset contains detailed product information, pricing attributes, customer ratings, and category classifications, making it suitable for competitive market analysis and product intelligence.
+
+To support analytical reporting, the raw data was cleaned, standardized, and enriched through feature engineering before being loaded into PostgreSQL for business analysis.
+
+## Dataset Summary
+
+| Attribute | Details |
+|-----------|---------|
+| **Dataset Type** | Public E-Commerce Product Dataset |
+| **Total Records** | 412,000+ Products |
+| **Main Categories** | 20 |
+| **Product Attributes** | Product Name, Category, Subcategory, Ratings, Number of Ratings |
+| **Pricing Attributes** | Actual Price, Discount Price, Discount Percentage |
+| **Engineered Features** | Value Score, Price Category, Competitiveness Score |
+| **Primary Use Case** | Product Intelligence & Competitive Market Analytics |
+
+### Data Preparation
+
+The dataset underwent several preprocessing steps before analysis:
+
+- Standardized pricing and numerical fields.
+- Handled missing and inconsistent values.
+- Removed duplicate product records.
+- Created derived business metrics for analysis.
+- Classified products into pricing segments.
+- Optimized the dataset for analytical reporting and dashboard development.
+
+# 🔄 ETL Pipeline
+
+The project follows a structured **Extract, Transform, and Load (ETL)** process to convert raw marketplace data into an analytics-ready dataset for reporting and business intelligence.
+
+### 📥 Extract
+
+The raw product dataset was imported into Python for preprocessing. It included product information such as categories, pricing, ratings, customer reviews, and discount details.
+
+### 🔧 Transform
+
+The transformation stage focused on improving data quality and creating business-ready features.
+
+Key transformation steps included:
+
+- Data quality assessment and validation
+- Missing value handling
+- Duplicate record removal
+- Standardization of pricing fields
+- Data type conversion
+- Feature engineering for business metrics
+- Product categorization
+- Creation of pricing segments
+- Competitiveness score calculation
+- Value score generation
+
+### 📤 Load
+
+After preprocessing, the cleaned dataset was loaded into PostgreSQL.
+
+The database was then structured into analytical tables and reusable SQL views, providing an optimized foundation for Power BI reporting and dashboard development.
+
+The ETL pipeline ensures that the dashboard always works with consistent, validated, and analytics-ready data.
+
+# 🗄 Database Design
+
+The project uses **PostgreSQL** as the analytical database to organize processed data into a structured reporting model.
+
+The database design separates raw data, transformed data, and business-ready analytical views, making reporting more efficient and easier to maintain.
+
+## Database Components
+
+### Raw Data Layer
+
+Stores the cleaned product dataset imported from the ETL pipeline.
+
+### Analytical Tables
+
+The database contains structured tables that support category analysis, pricing analysis, and product-level reporting.
+
+Examples include:
+
+- Product Information
+- Category Information
+- Pricing Segments
+- Product Metrics
+
+### Business Views
+
+To simplify reporting and improve dashboard performance, multiple SQL views were created.
+
+These views perform business calculations before the data reaches Power BI.
+
+The analytical views include:
+
+- Category Competitiveness Analysis
+- Market Saturation Analysis
+- Hidden Opportunity Analysis
+- Premium Product Analysis
+
+This approach reduces repetitive calculations within Power BI and improves report maintainability.
+
+# 📈 Dashboard Overview
+
+The Power BI solution consists of **five interactive dashboards**, each designed to address a specific business objective.
+
+| Dashboard | Business Focus |
+|-----------|----------------|
+| **Cover Page** | Project introduction and navigation |
+| **Executive Overview** | Marketplace performance summary and key KPIs |
+| **Competitive Intelligence & Market Positioning** | Competitive analysis and category benchmarking |
+| **Product Intelligence & Pricing Analytics** | Pricing strategy, value analysis, and customer perception |
+| **Market Opportunity & Strategic Insights** | Business recommendations and growth opportunities |
+
+Each dashboard supports interactive filtering, enabling users to explore insights across product categories, pricing segments, and competitiveness levels.
+## 🏠 Dashboard 1 — Cover Page
+
+The landing page introduces the project, highlights the analytics objective, and provides intuitive navigation to the remaining dashboards.
+
+### Purpose
+
+- Introduce the Product Intelligence platform.
+- Present the technology stack.
+- Improve user navigation.
+- Create a professional reporting experience.
+
+**Key Features**
+
+- Project branding
+- Navigation buttons
+- Modern dashboard design
+## 📊 Dashboard 2 — Executive Overview
+
+This dashboard provides a high-level summary of marketplace performance through key business metrics and category-level analysis.
+
+### Key KPIs
+
+- Total Products
+- Product Categories
+- Average Product Rating
+- Average Discount
+- Average Selling Price
+- Competitiveness Score
+
+### Business Value
+
+The dashboard enables business users to quickly understand overall marketplace performance before exploring detailed analytical reports.
+## 🎯 Dashboard 3 — Competitive Intelligence & Market Positioning
+
+This dashboard focuses on measuring competitive intensity across product categories and identifying areas with potential market opportunities.
+
+### Analysis Includes
+
+- Category Competitiveness
+- Market Saturation
+- Hidden Opportunities
+- Top Performing Products
+- Competitive Positioning
+
+### Business Value
+
+Supports strategic planning by helping decision-makers understand where competition is highest and where expansion opportunities may exist.
+## 💰 Dashboard 4 — Product Intelligence & Pricing Analytics
+
+This dashboard evaluates pricing behaviour and customer value across different product categories.
+
+### Analysis Includes
+
+- Pricing Distribution
+- Discount Analysis
+- Value Score
+- Premium Categories
+- Customer Ratings
+- Product Performance
+
+### Business Value
+
+Helps businesses evaluate pricing strategies and identify products that offer strong customer value while maintaining profitability.
+## 🚀 Dashboard 5 — Market Opportunity & Strategic Insights
+
+The final dashboard transforms analytical findings into actionable business recommendations.
+
+### Analysis Includes
+
+- Growth Opportunities
+- Premium Segments
+- Hidden Gem Products
+- Market Leaders
+- Strategic Recommendations
+
+### Business Value
+
+Provides executives with data-driven insights that support pricing optimization, category expansion, and long-term investment planning.
+
