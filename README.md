@@ -1,4 +1,8 @@
 # 🚀 Product Intelligence & Competitive Market Analytics Platform
+> **An End-to-End Business Intelligence Solution for Pricing Analytics, Product Intelligence, Competitive Benchmarking, and Strategic Decision-Making.**
+>
+> A comprehensive analytics solution built using **Python, PostgreSQL, SQL, Power BI, and DAX** to analyze **product competitiveness, pricing strategies, market saturation, customer value perception, and hidden business opportunities**. The project demonstrates the complete analytics lifecycle—from **data preprocessing and ETL** to **interactive business intelligence dashboards** that support strategic decision-making.
+
 ## ⭐ Why This Project?
 
 Businesses operating in competitive online marketplaces generate large volumes of product and pricing data every day. Converting this information into meaningful business insights requires a structured analytics workflow that combines data engineering, SQL analytics, and business intelligence.
@@ -6,9 +10,6 @@ Businesses operating in competitive online marketplaces generate large volumes o
 This project demonstrates how a complete analytics pipeline can be built—from raw data preparation and database design to interactive dashboards that support pricing strategy, competitive benchmarking, and market opportunity analysis.
 
 Rather than focusing solely on reporting, the project emphasizes actionable insights that help business stakeholders understand market dynamics and make informed decisions.
-> **An End-to-End Business Intelligence Solution for Pricing Analytics, Product Intelligence, Competitive Benchmarking, and Strategic Decision-Making.**
->
-> A comprehensive analytics solution built using **Python, PostgreSQL, SQL, Power BI, and DAX** to analyze **product competitiveness, pricing strategies, market saturation, customer value perception, and hidden business opportunities**. The project demonstrates the complete analytics lifecycle—from **data preprocessing and ETL** to **interactive business intelligence dashboards** that support strategic decision-making.
 
 ---
 <p align="center">
