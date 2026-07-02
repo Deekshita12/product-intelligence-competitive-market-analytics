@@ -660,22 +660,16 @@ product-intelligence-competitive-market-analytics
 ```
 # 📥 Project Downloads
 
-Some project files exceed GitHub's file size limit and are therefore hosted on Google Drive.
+Some project files exceed GitHub's maximum file size limit (100 MB) and are therefore hosted on Google Drive.
 
-| File | Availability |
-|------|--------------|
-| 📊 Processed Dataset | ✅ Available |
-| 📈 Master Dataset | ✅ Available |
-| 📉 Power BI Dashboard (.pbix) | ✅ Available |
+| Resource | Description | Download |
+|----------|-------------|----------|
+| 📊 Processed Dataset | Cleaned and transformed dataset used for SQL analysis and Power BI dashboards | **[Download](https://drive.google.com/drive/folders/1UBb6ZaQD1EL-H47yFwNyFM7Q8FJ_Seq-?usp=drive_link)** |
+| 📈 Power BI Dashboard (.pbix) | Interactive Power BI report containing all five dashboard pages | **[Download](https://drive.google.com/drive/folders/1Yj0pJA_pTLTm3mtZuo0Z1IxY77abQLME?usp=sharing)** |
 
-### Download Link
-
-👉 **[Download Project Files from Google Drive](https://drive.google.com/file/d/1IzV8X9cpbq1umJH2l1hm4ZSilte6G9Pd/view?usp=drivesdk)**
-
-> **Note:** The Google Drive folder contains:
-> - Processed Dataset
-> - Master Dataset
-> - Power BI (.pbix) Report
+> **Note**
+>
+> GitHub restricts files larger than **100 MB**, therefore the processed dataset and Power BI report are hosted externally on Google Drive for easy access.
 
 # 🚀 Installation Guide
 
