@@ -76,4 +76,4 @@ The ER Diagram illustrates the logical relationship between the fact table and d
 
 ---
 
-The database structure provides a scalable foundation for business intelligence reporting, enabling efficient querying, analytical processing, and interactive dashboard development.
+The database structure provides a scalable foundation for business intelligence reporting, enabling efficient querying, analytical processing  and interactive dashboard development.
