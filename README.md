@@ -97,7 +97,7 @@ The Power BI report consists of **five interactive dashboard pages**, each focus
 
 ## 1️⃣ Cover Page
 
-Introduces the project, technology stack, and analytics objective.
+Introduces the project, technology stack and analytics objective.
 
 ![Cover Page](Dashboard%20Screenshots/01_cover_page.png)
 
