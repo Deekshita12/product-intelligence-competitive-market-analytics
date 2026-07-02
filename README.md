@@ -253,11 +253,17 @@ The solution is organized into six logical layers:
 5. **Visualization Layer** – Interactive Power BI dashboards with DAX measures.
 6. **Business Outcomes** – Competitive intelligence, pricing analysis and strategic decision support.
 
-# 📊 Dataset Overview
+## Dataset Availability
 
-The project is built on a large-scale **public e-commerce product dataset** representing products across multiple retail categories. The dataset contains detailed product information, pricing attributes, customer ratings and category classifications, making it suitable for competitive market analysis and product intelligence.
+To comply with GitHub's file size limitations, the project data has been organized as follows:
 
-To support analytical reporting, the raw data was cleaned, standardized and enriched through feature engineering before being loaded into PostgreSQL for business analysis.
+| Folder | Description |
+|---------|-------------|
+| **Dataset** | Original public e-commerce product dataset downloaded from Kaggle |
+| **Dataset 2** | Additional dataset files required for the project |
+| **Power BI** | README containing access instructions for the Power BI report |
+
+The processed analytical dataset and the Power BI report are hosted externally due to GitHub's maximum file size limit.
 
 ## Dataset Summary
 
@@ -609,31 +615,39 @@ The analysis uncovered several patterns that can support strategic product and p
 ```text
 product-intelligence-competitive-market-analytics
 │
-├── assets/
+├── Architecture/
+│   ├── README.md
+│   └── architecture.png
+│
+├── Dashboard Screenshots/
+│   ├── README.md
 │   ├── 01_cover_page.png
 │   ├── 02_executive_overview.png
 │   ├── 03_competitive_intelligence.png
 │   ├── 04_product_intelligence.png
 │   └── 05_market_opportunity.png
 │
-├── data/
-│   ├── raw/
-│   └── processed/
+├── Database_Design/
+│   ├── README.md
+│   └── database_er_diagram.png
 │
-├── docs/
-│   ├── architecture.png
-│   ├── data_dictionary.md
-│   └── project_report.md
+├── Dataset/
+│   └── README.md
 │
-├── powerbi/
-│   └── Product_Intelligence_Competitive_Market_Analytics.pbix
+├── Dataset 2/
+│   └── README.md
 │
-├── scripts/
+├── Power BI/
+│   └── README.md
+│
+├── Python/
+│   ├── README.md
 │   ├── transform_data.py
 │   ├── load_data.py
 │   └── create_views.py
 │
-├── sql/
+├── SQL/
+│   ├── README.md
 │   ├── schema.sql
 │   ├── create_tables.sql
 │   ├── analytical_views.sql
@@ -645,6 +659,7 @@ product-intelligence-competitive-market-analytics
 ├── requirements.txt
 ├── LICENSE
 └── .gitignore
+```
 ```
 # 🚀 Installation Guide
 
