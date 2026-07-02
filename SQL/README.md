@@ -2,7 +2,7 @@
 
 This folder contains the SQL scripts used to build the analytical database for the **Product Intelligence & Competitive Market Analytics** project.
 
-The scripts create the database schema, define the analytical data model, generate business-focused SQL views, validate data integrity, and support reporting in Power BI.
+The scripts create the database schema, define the analytical data model, generate business-focused SQL views, validate data integrity and support reporting in Power BI.
 
 ---
 
