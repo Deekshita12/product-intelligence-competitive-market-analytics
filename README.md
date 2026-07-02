@@ -656,11 +656,27 @@ product-intelligence-competitive-market-analytics
 │   └── validation_queries.sql
 │
 ├── README.md
-├── requirements.txt
-├── LICENSE
-└── .gitignore
 ```
 ```
+# 📥 Project Downloads
+
+Some project files exceed GitHub's file size limit and are therefore hosted on Google Drive.
+
+| File | Availability |
+|------|--------------|
+| 📊 Processed Dataset | ✅ Available |
+| 📈 Master Dataset | ✅ Available |
+| 📉 Power BI Dashboard (.pbix) | ✅ Available |
+
+### Download Link
+
+👉 **[Download Project Files from Google Drive](https://drive.google.com/file/d/1IzV8X9cpbq1umJH2l1hm4ZSilte6G9Pd/view?usp=drivesdk)**
+
+> **Note:** The Google Drive folder contains:
+> - Processed Dataset
+> - Master Dataset
+> - Power BI (.pbix) Report
+
 # 🚀 Installation Guide
 
 Follow these steps to set up the project locally.
@@ -703,9 +719,13 @@ Run the Python scripts to clean, transform and load the processed dataset into P
 
 ---
 
-## 6. Open Power BI
+## 6. Download Project Files
 
-Open the `.pbix` file located in the `powerbi` folder and refresh the data source to explore the dashboards.
+Download the processed dataset, master dataset, and Power BI report from the Google Drive folder provided above.
+
+## 7. Open the Power BI Report
+
+Open the downloaded `.pbix` file using **Power BI Desktop** and refresh the data source if required.
 
 # 🔮 Future Enhancements
 
