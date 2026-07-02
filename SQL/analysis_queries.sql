@@ -1,3 +1,18 @@
+/*==============================================================
+
+ Project : Product Intelligence & Competitive Market Analytics
+
+ File    : analysis_queries.sql
+
+ Purpose : Executes business analysis queries used to
+           evaluate marketplace performance and generate
+           strategic insights.
+
+ Database: pricing_analytics
+ Schema  : analytics
+
+==============================================================*/
+
 SELECT *
 FROM analytics.competitiveness
 ORDER BY competitiveness_score DESC;
