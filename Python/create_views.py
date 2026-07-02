@@ -3,9 +3,10 @@ from sqlalchemy import create_engine, text
 
 # PostgreSQL Database Connection
 DATABASE_URL = (
+DATABASE_URL = (
     "postgresql+psycopg2://"
-    "postgres:"
-    "Deekshita%400308"
+    "YOUR_USERNAME:"
+    "YOUR_PASSWORD"
     "@localhost:5432/"
     "pricing_analytics"
 )
