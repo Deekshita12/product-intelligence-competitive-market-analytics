@@ -1,9 +1,16 @@
--- =====================================================
--- ANALYTICAL VIEWS
--- Project: Competitive Product Intelligence Platform
--- Database: pricing_analytics
--- Schema: analytics
--- =====================================================
+/*==============================================================
+
+ Project : Product Intelligence & Competitive Market Analytics
+
+ File    : analytical_views.sql
+
+ Purpose : Creates reusable analytical SQL views used
+           by Power BI dashboards.
+
+ Database: pricing_analytics
+ Schema  : analytics
+
+==============================================================*/
 
 ---------------------------------------------------------
 -- 1. COMPETITIVENESS VIEW
