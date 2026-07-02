@@ -239,7 +239,7 @@ Raw Amazon Product Dataset
 The project follows a layered Business Intelligence architecture that transforms raw marketplace data into actionable insights through a structured ETL pipeline and analytical reporting framework.
 
 <p align="center">
-  <img src="docs/architecture.png" alt="Project Architecture" width="100%">
+  <img src="Architecture/architecture%20(1).png" alt="Project Architecture" width="100%">
 </p>
 
 ### Architecture Overview
