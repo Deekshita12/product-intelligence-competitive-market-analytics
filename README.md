@@ -99,7 +99,7 @@ The Power BI report consists of **five interactive dashboard pages**, each focus
 
 Introduces the project, technology stack, and analytics objective.
 
-![Cover Page](docs/assets/01_cover_page.png)
+![Cover Page](Dashboard%20Screenshots/01_cover_page.png)
 
 ---
 
@@ -107,7 +107,7 @@ Introduces the project, technology stack, and analytics objective.
 
 Provides a high-level summary of marketplace performance through KPIs, category distribution, competitiveness score, pricing metrics and interactive filters.
 
-![Executive Overview](docs/assets/02_executive_overview.png)
+![Executive Overview](Dashboard%20Screenshots/02_executive_overview.png)
 
 ---
 
@@ -115,7 +115,7 @@ Provides a high-level summary of marketplace performance through KPIs, category 
 
 Analyzes category competitiveness, hidden opportunities, market saturation, top-performing products and competitive positioning.
 
-![Competitive Intelligence](docs/assets/03_competitive_intelligence.png)
+![Competitive Intelligence](Dashboard%20Screenshots/03_competitive_intelligence.png)
 
 ---
 
@@ -123,7 +123,7 @@ Analyzes category competitiveness, hidden opportunities, market saturation, top-
 
 Focuses on pricing behaviour, value perception, discounts, premium segments, category pricing and product performance.
 
-![Product Intelligence](docs/assets/04_product_intelligence.png)
+![Product Intelligence](Dashboard%20Screenshots/04_product_intelligence.png)
 
 ---
 
@@ -131,7 +131,7 @@ Focuses on pricing behaviour, value perception, discounts, premium segments, cat
 
 Transforms analytical findings into executive recommendations by identifying growth opportunities, premium markets, hidden gems and strategic investment areas.
 
-![Market Opportunity](docs/assets/05_market_opportunity.png)
+![Market Opportunity](Dashboard%20Screenshots/05_market_opportunity.png)
 
 # 📖 About the Project
 
