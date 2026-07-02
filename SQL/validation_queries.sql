@@ -1,3 +1,17 @@
+/*==============================================================
+
+ Project : Product Intelligence & Competitive Market Analytics
+
+ File    : validation_queries.sql
+
+ Purpose : Validates the fact table, dimension tables,
+           and analytical views after data loading.
+
+ Database: pricing_analytics
+ Schema  : analytics
+
+==============================================================*/
+
 SELECT COUNT(*)
 FROM analytics.fact_products;
 
