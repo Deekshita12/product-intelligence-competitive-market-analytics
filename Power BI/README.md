@@ -2,7 +2,7 @@
 
 This folder contains information about the interactive **Power BI Dashboard** developed for the **Product Intelligence & Competitive Market Analytics** project.
 
-The Power BI report brings together insights generated through Python, PostgreSQL, SQL, and DAX into an interactive business intelligence solution that supports pricing analysis, competitive benchmarking, and strategic decision-making.
+The Power BI report brings together insights generated through Python, PostgreSQL, SQL and DAX into an interactive business intelligence solution that supports pricing analysis, competitive benchmarking and strategic decision-making.
 
 ---
 
@@ -15,7 +15,7 @@ The report consists of **five interactive dashboard pages**, each designed to ad
 | 🏠 Cover Page | Project introduction and navigation |
 | 📈 Executive Overview | Marketplace performance summary and key KPIs |
 | 🎯 Competitive Intelligence & Market Positioning | Competitive analysis and category benchmarking |
-| 💰 Product Intelligence & Pricing Analytics | Pricing strategy, value analysis, and customer perception |
+| 💰 Product Intelligence & Pricing Analytics | Pricing strategy, value analysis and customer perception |
 | 🚀 Market Opportunity & Strategic Insights | Business recommendations and strategic insights |
 
 ---
@@ -56,4 +56,4 @@ The `.pbix` file exceeds GitHub's maximum file size limit (**100 MB**) and is th
 
 ---
 
-The dashboard is designed to provide an end-to-end analytical view of marketplace performance, enabling users to explore pricing trends, competitive positioning, customer perception, and business growth opportunities through interactive visualizations.
+The dashboard is designed to provide an end-to-end analytical view of marketplace performance, enabling users to explore pricing trends, competitive positioning, customer perception and business growth opportunities through interactive visualizations.
