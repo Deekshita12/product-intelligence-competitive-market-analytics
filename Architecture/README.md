@@ -14,7 +14,7 @@ The project follows a structured Business Intelligence pipeline consisting of th
 - Public E-commerce Product Dataset
 - Raw marketplace product information
 
-### 🐍 ETL Layer (Python)
+###  ETL Layer (Python)
 - Data Cleaning
 - Data Transformation
 - Feature Engineering
