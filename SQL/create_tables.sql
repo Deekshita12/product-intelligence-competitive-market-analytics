@@ -1,9 +1,16 @@
--- =====================================================
--- CREATE FACT AND DIMENSION TABLES
--- Project: Competitive Product Intelligence Platform
--- Database: pricing_analytics
--- Schema: analytics
--- =====================================================
+/*==============================================================
+
+ Project : Product Intelligence & Competitive Market Analytics
+
+ File    : create_tables.sql
+
+ Purpose : Creates the fact table and dimension tables
+           used in the analytical database.
+
+ Database: pricing_analytics
+ Schema  : analytics
+
+==============================================================*/
 
 CREATE TABLE analytics.dim_category (
     category_id SERIAL PRIMARY KEY,
