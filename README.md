@@ -369,7 +369,7 @@ Each dashboard supports interactive filtering, enabling users to explore insight
 
 <td width="55%">
 
-<img src="docs/assets/01_cover_page.png" width="100%">
+<img src="Dashboard%20Screenshots/01_cover_page.png" width="100%">
 
 </td>
 
@@ -407,7 +407,7 @@ Provides users with a clear introduction to the analytics platform and establish
 
 <td width="55%">
 
-<img src="docs/assets/02_executive_overview.png" width="100%">
+<img src="Dashboard%20Screenshots/02_executive_overview.png" width="100%">
 
 </td>
 
@@ -452,7 +452,7 @@ Enables business users to quickly understand overall marketplace performance bef
 
 <td width="55%">
 
-<img src="docs/assets/03_competitive_intelligence.png" width="100%">
+<img src="Dashboard%20Screenshots/03_competitive_intelligence.png" width="100%">
 
 </td>
 
@@ -496,7 +496,7 @@ Supports strategic planning by helping decision-makers understand where competit
 
 <td width="55%">
 
-<img src="docs/assets/04_product_intelligence.png" width="100%">
+<img src="Dashboard%20Screenshots/04_product_intelligence.png" width="100%">
 
 </td>
 
@@ -541,7 +541,7 @@ Helps businesses evaluate pricing strategies and identify products that deliver 
 
 <td width="55%">
 
-<img src="docs/assets/05_market_opportunity.png" width="100%">
+<img src="Dashboard%20Screenshots/05_market_opportunity.png" width="100%">
 
 </td>
 
