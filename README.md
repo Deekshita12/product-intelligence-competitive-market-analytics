@@ -320,7 +320,7 @@ The ETL pipeline ensures that the dashboard always works with consistent, valida
 A relational analytical database was designed in PostgreSQL to support efficient querying, reusable business logic and seamless integration with Power BI.
 
 <p align="center">
-  <img src="docs/database_er_diagram.png" alt="Database ER Diagram" width="100%">
+  <img src="Database_Design/database_er_diagram.png" alt="Database ER Diagram" width="100%">
 </p>
 
 ### Database Components
