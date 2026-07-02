@@ -657,19 +657,24 @@ product-intelligence-competitive-market-analytics
 │
 ├── README.md
 ```
-```
+
 # 📥 Project Downloads
 
 Some project files exceed GitHub's maximum file size limit (100 MB) and are therefore hosted on Google Drive.
 
-| Resource | Description | Download |
-|----------|-------------|----------|
-| 📊 Processed Dataset | Cleaned and transformed dataset used for SQL analysis and Power BI dashboards | **[Download](https://drive.google.com/drive/folders/1UBb6ZaQD1EL-H47yFwNyFM7Q8FJ_Seq-?usp=drive_link)** |
-| 📈 Power BI Dashboard (.pbix) | Interactive Power BI report containing all five dashboard pages | **[Download](https://drive.google.com/drive/folders/1Yj0pJA_pTLTm3mtZuo0Z1IxY77abQLME?usp=sharing)** |
+| Resource | Description |
+|----------|-------------|
+| 📊 Processed Dataset | Cleaned and transformed dataset used for SQL analysis and Power BI dashboards |
+| 📈 Power BI Dashboard (.pbix) | Interactive Power BI report containing all five dashboard pages |
 
-> **Note**
->
-> GitHub restricts files larger than **100 MB**, therefore the processed dataset and Power BI report are hosted externally on Google Drive for easy access.
+## 🔗 Download Links
+
+- 📊 **Processed Dataset:** [Download from Google Drive](https://drive.google.com/drive/folders/1UBb6ZaQD1EL-H47yFwNyFM7Q8FJ_Seq-?usp=drive_link)
+
+- 📈 **Power BI Dashboard:** [Download from Google Drive](https://drive.google.com/drive/folders/1Yj0pJA_pTLTm3mtZuo0Z1IxY77abQLME?usp=sharing)
+
+> **Note:** GitHub does not allow files larger than **100 MB**. Therefore, the processed dataset and Power BI report are hosted externally on Google Drive.
+
 
 # 🚀 Installation Guide
 
@@ -679,9 +684,12 @@ Follow these steps to set up the project locally.
 
 ```bash
 git clone https://github.com/Deekshita12/product-intelligence-competitive-market-analytics.git
+
 ```
 
 ---
+
+
 
 ## 2. Navigate to the Project Directory
 
