@@ -2,7 +2,7 @@
 
 This folder contains screenshots of the interactive Power BI dashboards developed for the **Product Intelligence & Competitive Market Analytics** project.
 
-The dashboards provide a comprehensive view of marketplace performance, competitive positioning, pricing strategy, and business opportunities through interactive visualizations and KPI-driven insights.
+The dashboards provide a comprehensive view of marketplace performance, competitive positioning, pricing strategy and business opportunities through interactive visualizations and KPI-driven insights.
 
 ---
 
