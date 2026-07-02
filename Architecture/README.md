@@ -2,7 +2,7 @@
 
 This folder contains the high-level architecture diagram for the **Product Intelligence & Competitive Market Analytics** project.
 
-The architecture illustrates the complete end-to-end analytics workflow, starting from raw data ingestion through ETL processing, database modeling, analytical SQL views, and interactive Power BI dashboards.
+The architecture illustrates the complete end-to-end analytics workflow, starting from raw data ingestion through ETL processing, database modeling, analytical SQL views and interactive Power BI dashboards.
 
 ---
 
